@@ -5,6 +5,7 @@ import = [
 ]
 
 [colors.primary]
+foreground = "#a08563"
 background = "#0b0b0b"
 
 [colors.cursor]
