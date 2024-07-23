@@ -1,18 +1,24 @@
-working_directory = "C:\\Users\\jungl\\dev"
+working_directory = "C:\\Users\\shatto"
 
 import = [
 #    "~/.config/alacritty/themes/themes/"
 ]
 
+[colors.primary]
+background = "#0b0b0b"
+
 [colors.cursor]
-cursor = "#ffdd33"
+cursor = "#00ee00"
 text = "#000000"
 [cursor.style]
 blinking = "Always"
 
 [font]
-size = 24
-normal = { family = "Iosevka Nerd Font Mono" }
+size = 14
+normal = { family = "Consolas" }
 
 [window]
 startup_mode = "Maximized"
+
+[shell]
+program = "cmd"
